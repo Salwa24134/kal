@@ -11,19 +11,19 @@ Pertama, sistem persamaan dituliskan dalam bentuk matriks yang disebut matriks A
 Kemudian, dilakukan Operasi Baris Elementer(OBE) seperti menukar posisi baris, mengalikan baris  dengan suatu konstanta tidak nol, dan menjumlahkan atau mengurangkan kelipatan suatu baris ke baris lain.
 Setelah itu, nilai dapat ditentukan dengan metode Substitusi Balik, yaitu menyelesaikan  persamaan dari baris terakhir ke baris pertama secara bertahap. Dengan demikian, solusi sistem persamaan dapat ditemukan secara terstruktur dan sistematis.
 
-###### Diketahui sistem persamaan linear:
+##### Diketahui sistem persamaan linear:
 $$\begin{aligned}
 x + y + z  &= 6 \\
 2x - y + z &= 3 \\
 3x + y - z &= 4
 \end{aligned}$$
 
-###### Penyelesaian :
+##### Penyelesaian :
 1. Bentuk Matriks Augmentasi 
 $$\begin{bmatrix}
-  [ 1 &  1 & 1 | 6 ] \\
-  [ 2 & -1 & 1 | 3 ] \\
-  [ 3 & 1 & -1 | 4 ]
+   1 &  1 & 1 | 6  \\
+   2 & -1 & 1 | 3 \\
+   3 & 1& -1 | 4 
 \end{bmatrix}$$
 
 2. Eliminasi Gauss :
@@ -31,21 +31,21 @@ $$\begin{bmatrix}
 langkah 1. Nol-kan elemen di bawah elemen pivot pertama (1,1)
 Gunakan baris pertama untuk mengeliminasi elemen di bawahnya menjadi nol:
 
-    hasilnya : 
+##### hasilnya : 
 $$\begin{bmatrix}
-[ 1 &  1 & 1  |  6 ] \\
-[ 0 & -3 & -1 | -9 ] \\
-[ 0 & -2 & -4 | -14]
+1 &  1 & 1  |  6  \\
+0 & -3 & -1 | -9  \\
+0 & -2 & -4 | -14
 \end{bmatrix}$$
 
 Langkah 2.Nol-kan elemen di bawah elemen pivot kedua adalah 1 di posisi (2,2).
 Gunakan baris kedua untuk mengeliminasi baris ketiga:
 
-hasilnya : 
+##### hasilnya : 
 $$\begin{bmatrix}
-[ 1 &  1 & 1  |  6 ] \\
-[ 0 & -3 & -1 | -9 ] \\
-[ 0 &  0 & -2 | -6 ]
+ 1 &  1 & 1  |  6  \\
+ 0 & -3 & -1 | -9  \\
+ 0 &  0 & -2 | -6 
 \end{bmatrix}$$
 
 3. Substitusi Balik
