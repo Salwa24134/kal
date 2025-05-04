@@ -34,9 +34,9 @@ Agar suatu transformasi $T$ dikatakan **linier**, maka untuk sembarang vektor $\
 
 ---
 
-### Langkah Pembuktian Transformasi Linier
+## Langkah Pembuktian Transformasi Linier
 
-#### 1. Aditivitas
+## 1. Aditivitas
 
 Misalkan:
 
